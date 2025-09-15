@@ -24,3 +24,18 @@
     width: 100px;
     margin-right: 10px;
 }
+
+.signature-bg {
+  position: relative;
+  background: url('Assets/Linie2.jpg') left bottom/contain no-repeat;
+  padding-bottom: 40px;
+}
+
+.nav-item {
+    transition: border-color 0.1s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #afa063;
+}
